@@ -1,0 +1,44 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+       <DisplayName>Daily Needs Survival Systems</DisplayName>
+      <Name>Daily Needs Survival Kit</Name>
+      <ItemIds>
+
+        <string>Refinery/WRS</string>
+
+		        <string>Refinery/WRSSmall</string>
+
+	<string>Assembler/CropGrower</string>
+
+        <string>Refinery/Hydroponics</string>
+
+		        <string>Refinery/HydroponicsSmall</string>
+
+        <string>Refinery/Hydroponics2</string>
+
+        <string>Assembler/Kitchen</string>
+
+			<string>Assembler/KitchenSmall</string>
+
+			<string>Assembler/EmergencyRationsKitSmall</string>
+
+	<string>TextPanel/DailyNeeds_BlankLCD</string>
+
+
+
+
+
+
+
+
+
+      </ItemIds>
+    </Category>
+</CategoryClasses>
+</Definitions>

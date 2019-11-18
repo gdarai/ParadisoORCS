@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints> 
+	 <!-- Research Computere Mod  -->
+		 <Blueprint> 
+             <Id> 
+                 <TypeId>BlueprintDefinition</TypeId> 
+                 <SubtypeId>QuantumComputerChipResearch</SubtypeId> 
+             </Id> 
+             <DisplayName>QuantumComputerChip</DisplayName> 
+             <Icon>Textures\tech2x.dds</Icon> 
+             <Prerequisites> 
+                 <Item Amount="1" TypeId="Ore" SubtypeId="Ice"/> 
+             </Prerequisites> 
+             <Result Amount="1" TypeId="Component" SubtypeId="QuantumComputerChip"/> 
+             <BaseProductionTimeInSeconds>4800</BaseProductionTimeInSeconds> 
+         </Blueprint> 
+         <Blueprint> 
+             <Id> 
+                 <TypeId>BlueprintDefinition</TypeId> 
+                 <SubtypeId>Tech2xComponentsResearch</SubtypeId> 
+             </Id> 
+             <DisplayName>Research Common Tech</DisplayName> 
+             <Icon>Textures\CommonResearch.png</Icon> 
+             <Prerequisites> 
+                 <Item Amount="1" TypeId="Ore" SubtypeId="Ice"/> 
+             </Prerequisites> 
+             <Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/> 
+             <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds> 
+         </Blueprint> 
+         <Blueprint> 
+             <Id> 
+                 <TypeId>BlueprintDefinition</TypeId> 
+                 <SubtypeId>Tech4xComponentsResearch</SubtypeId> 
+             </Id> 
+             <DisplayName>Research Rare Tech</DisplayName> 
+             <Icon>Textures\RareResearch.png</Icon> 
+             <Prerequisites> 
+                 <Item Amount="1" TypeId="Ore" SubtypeId="Ice"/> 
+				 <Item Amount="12" TypeId="Component" SubtypeId="Tech2x"/> 
+             </Prerequisites> 
+             <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/> 
+             <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds> 
+         </Blueprint> 
+         <Blueprint> 
+             <Id> 
+                 <TypeId>BlueprintDefinition</TypeId> 
+                 <SubtypeId>Tech8xComponentsResearch</SubtypeId> 
+             </Id> 
+             <DisplayName>Research Exotic Tech</DisplayName> 
+             <Icon>Textures\ExoticResearch.png</Icon> 
+             <Prerequisites> 
+                 <Item Amount="1" TypeId="Ore" SubtypeId="Ice"/> 
+                 <Item Amount="12" TypeId="Component" SubtypeId="Tech4x"/> 
+             </Prerequisites> 
+             <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/> 
+             <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds> 
+         </Blueprint> 
+		
+		 <!-- reverse engineer  -->
+		    <Blueprint> 
+             <Id> 
+                 <TypeId>BlueprintDefinition</TypeId> 
+                 <SubtypeId>RE8x</SubtypeId> 
+             </Id> 
+             <DisplayName>Decode into Rare Tech</DisplayName> 
+             <Icon>Textures\RecycleExotic.png</Icon> 
+             <Prerequisites> 
+                 <Item Amount="1" TypeId="Ore" SubtypeId="Ice"/> 
+                 <Item Amount="4" TypeId="Component" SubtypeId="Tech8x"/> 
+             </Prerequisites> 
+             <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/> 
+             <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds> 
+         </Blueprint> 
+		 <Blueprint> 
+             <Id> 
+                 <TypeId>BlueprintDefinition</TypeId> 
+                 <SubtypeId>RE4x</SubtypeId> 
+             </Id> 
+             <DisplayName>Decode into Common Tech</DisplayName> 
+             <Icon>Textures\RecycleRare.png</Icon> 
+             <Prerequisites> 
+                 <Item Amount="1" TypeId="Ore" SubtypeId="Ice"/> 
+                 <Item Amount="4" TypeId="Component" SubtypeId="Tech4x"/> 
+             </Prerequisites> 
+             <Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/> 
+             <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds> 
+         </Blueprint> 
+		  
+     </Blueprints>
+</Definitions>

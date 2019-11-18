@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_Entertainment" />
+            <Icon>Textures\ArcadeMachine\ArcadeMachine_Pacman_Icon.dds</Icon>
+            <DisplayName>Entertainment Blocks</DisplayName>
+            <Description>All the blocks here are for fun and decoration</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_ArcadeMachine" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_ArcadeMachine_SpaceInvaders" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_ArcadeMachine_MortalKombat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_ArcadeMachine_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_ArcadeMachine_SpaceInvaders_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_ArcadeMachine_MortalKombat_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_PlantTubFern" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_PlantTubFern_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_PoolTable" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_PoolTable_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_SideTable" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_SideTable_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_SideTable_L" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_SideTable_R" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_TableTennis" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_TableTennis_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_Installations" />
+            <Icon>Textures\BunkBed\BedSingleIcon.dds</Icon>
+            <DisplayName>Installations</DisplayName>
+            <Description>Some more usefull blocks for your base</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BedSingle" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BedDouble" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BedSingle_Small" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BedDouble_Small" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BunkBed" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BunkBedMirrored" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BunkBed_Small" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BunkBedMirrored_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Sink" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Sink_Small" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_Toilet" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_Toilet_Small" />
+                <Block Type="MyObjectBuilder_Door" Subtype="Eikester_Shower" />
+                <Block Type="MyObjectBuilder_Door" Subtype="Eikester_Shower_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_Benches" />
+            <Icon>Textures\Bench\BenchStraightIcon.dds</Icon>
+            <DisplayName>Benches</DisplayName>
+            <Description>Some place to sit on</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BenchStraight" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BenchStraight_Small" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BenchCurved" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Eikester_BenchCurved_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_BenchInvertedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_BenchInvertedCorner_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_FenceAndGate" />
+            <Icon>Textures\Fences\FenceGateIcon.dds</Icon>
+            <DisplayName>Fences and Gates</DisplayName>
+            <Description>Make the place a little bit more industrial</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Door" Subtype="Eikester_FenceGate" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight_BatteryArea" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight_ConstructionArea" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight_ConstructionSite" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight_RestrictedArea" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight_HighVoltage" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_FenceStraight_KeepOut" />
+                <Block Type="MyObjectBuilder_Door" Subtype="Eikester_IndustrialDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="Eikester_IndustrialDoorOffset" />
+                <Block Type="MyObjectBuilder_Door" Subtype="Eikester_IndustrialDoor_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_Power" />
+            <Icon>Textures\Locker\LockerIcon.dds</Icon>
+            <DisplayName>On Wall</DisplayName>
+            <Description>Lamps, Shelves and Batteries</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="EIKESTER_HangingLamp" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="EIKESTER_HangingLampLong" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="EIKESTER_HangingLamp_Small" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="EIKESTER_HangingLampLong_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Locker" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Locker_Small" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Eikester_Shelf" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Eikester_Shelf_Small" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Eikester_TransformerBox" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Eikester_TransformerBox_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_Pipes" />
+            <Icon>Textures\Pipes\PipesStraightIcon.dds</Icon>
+            <DisplayName>Pipes</DisplayName>
+            <Description>Early transporting system</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Eikester_PipesTubeTransition" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Eikester_PipesTubeTransitionRight" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Eikester_PipesTubeTransitionLeft" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesStraight" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesStraightSupport" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCorner" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCorner2" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCorner3" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCorner2Mirrored" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCorner3Mirrored" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCornerDown" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCornerLong" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Eikester_PipesCornerUp" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Eikester_Railings" />
+            <Icon>Textures\Railing\RailingStraightIcon.dds</Icon>
+            <DisplayName>Railings</DisplayName>
+            <Description>To stop them walk where they are not allowed</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingStraight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingDouble" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingDiagonal" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingStraight_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingDiagonal_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingCorner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_RailingRoundCorner_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>

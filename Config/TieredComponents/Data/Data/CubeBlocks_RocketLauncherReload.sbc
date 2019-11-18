@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <!--        Tier 2-->
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncherReload</TypeId>
+                <SubtypeId>SmallRocketLauncherReload2x</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Reloadable Rocket Launcher</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <BlockPairName>SmallRocketLauncherReload2x</BlockPairName>
+            <Icon>Textures\RocketLauncherReload2x.dds</Icon>
+            <Description>Description_RocketLauncherReload</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\RocketLauncherReload.mwm</Model>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="Tech2x" Count="16"/>
+                <Component Subtype="SmallTube" Count="75"/>
+                <Component Subtype="InteriorPlate" Count="60"/>
+                <Component Subtype="Construction" Count="36"/>
+                <Component Subtype="LargeTube" Count="12"/>
+                <Component Subtype="MetalGrid" Count="15"/>
+                <Component Subtype="Motor" Count="6"/>
+                <Component Subtype="Computer" Count="3"/>
+                <Component Subtype="SteelPlate" Count="12"/>
+                <Component Subtype="InteriorPlate" Count="15"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\RocketLauncherReloadConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\RocketLauncherReloadConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <Center x="0" y="0" z="1"/>
+            <BuildTimeSeconds>23</BuildTimeSeconds>
+            <InventoryMaxVolume>0.24</InventoryMaxVolume>
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <WeaponDefinitionId Subtype="SmallMissileLauncher2x"/>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>425</PCU>
+            <MirroringZ>Y</MirroringZ>
+
+        </Definition>
+
+        <!--        Tier 4-->
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncherReload</TypeId>
+                <SubtypeId>SmallRocketLauncherReload4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Reloadable Rocket Launcher</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <BlockPairName>SmallRocketLauncherReload4x</BlockPairName>
+            <Icon>Textures\RocketLauncherReload4x.dds</Icon>
+            <Description>Description_RocketLauncherReload</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\RocketLauncherReload.mwm</Model>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="Tech4x" Count="16"/>
+                <Component Subtype="SmallTube" Count="113"/>
+                <Component Subtype="InteriorPlate" Count="90"/>
+                <Component Subtype="Construction" Count="54"/>
+                <Component Subtype="LargeTube" Count="18"/>
+                <Component Subtype="MetalGrid" Count="23"/>
+                <Component Subtype="Motor" Count="9"/>
+                <Component Subtype="Computer" Count="5"/>
+                <Component Subtype="SteelPlate" Count="18"/>
+                <Component Subtype="InteriorPlate" Count="23"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\RocketLauncherReloadConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\RocketLauncherReloadConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <Center x="0" y="0" z="1"/>
+            <BuildTimeSeconds>34</BuildTimeSeconds>
+            <InventoryMaxVolume>0.24</InventoryMaxVolume>
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <WeaponDefinitionId Subtype="SmallMissileLauncher4x"/>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>425</PCU>
+            <MirroringZ>Y</MirroringZ>
+
+        </Definition>
+
+        <!--        Tier 8-->
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncherReload</TypeId>
+                <SubtypeId>SmallRocketLauncherReload8x</SubtypeId>
+            </Id>
+            <DisplayName>Elite Reloadable Rocket Launcher</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <BlockPairName>SmallRocketLauncherReload8x</BlockPairName>
+            <Icon>Textures\RocketLauncherReload8x.dds</Icon>
+            <Description>Description_RocketLauncherReload</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\RocketLauncherReload.mwm</Model>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="Tech8x" Count="16"/>
+                <Component Subtype="SmallTube" Count="169"/>
+                <Component Subtype="InteriorPlate" Count="135"/>
+                <Component Subtype="Construction" Count="81"/>
+                <Component Subtype="LargeTube" Count="27"/>
+                <Component Subtype="MetalGrid" Count="34"/>
+                <Component Subtype="Motor" Count="14"/>
+                <Component Subtype="Computer" Count="7"/>
+                <Component Subtype="SteelPlate" Count="27"/>
+                <Component Subtype="InteriorPlate" Count="34"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\RocketLauncherReloadConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\RocketLauncherReloadConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <Center x="0" y="0" z="1"/>
+            <BuildTimeSeconds>51</BuildTimeSeconds>
+            <InventoryMaxVolume>0.24</InventoryMaxVolume>
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <WeaponDefinitionId Subtype="SmallMissileLauncher8x"/>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>425</PCU>
+            <MirroringZ>Y</MirroringZ>
+
+        </Definition>
+    </CubeBlocks>
+</Definitions>

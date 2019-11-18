@@ -1,0 +1,26 @@
+Weapon effectiveness
+
+Ravenbolt Compact Weapon System OK, Tier 0 +CAT
+Skallabjorns Heavy Laser Turret
+    - Turret T0 (OK)
+Directed Energy Weapons
+    - TurretsL Dmgx2 (OK)
+    - HeavyTurrets Dmg/10 (OK)
+    - AF T1 Dmgx3 (OK)
+    - PD T1 Dmgx3 (OK)
+    - Fixed T3 
+!!!MISSING Small
+
+Advanced Energy Cannons +CAT
+    - Fixed (Util) T2 LaserDmgx2, Rng to 1200(OK)
+MWI +CAT
+    - Fixed T2 (OK)
+    - Small Turrets T2 (OK)
+    - Large Turrets T2 (OK)
+    - PD T2 Dmgx3 Speed/2 (OK)
+
+
+
+Research will be Tier Tech Driven.
+All blocks will be +- Available, but to get the required tier upgrades will be harder.
+Resources... All everywhere. Uran not much. Platin, Gold, Silver, Little.

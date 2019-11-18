@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<BlueprintClassEntries>
+
+    <Entry Class="Food" BlueprintSubtypeId="ToFurkey" />
+    <Entry Class="Food" BlueprintSubtypeId="NotBeefBurger" />
+    <Entry Class="Food" BlueprintSubtypeId="HotChocolate" />
+    <Entry Class="Food" BlueprintSubtypeId="SpaceMealBar" />
+    <Entry Class="Food" BlueprintSubtypeId="SpacersBreakfast" />
+    <Entry Class="Food" BlueprintSubtypeId="ProteinShake" />
+
+</BlueprintClassEntries>
+
+</Definitions>

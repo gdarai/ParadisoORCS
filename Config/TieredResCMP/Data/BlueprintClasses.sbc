@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions>
+     <BlueprintClasses> 
+         <Class> 
+             <Id> 
+                 <TypeId>BlueprintClassDefinition</TypeId> 
+                 <SubtypeId>Research</SubtypeId> 
+             </Id> 
+             <DisplayName>Technology Research</DisplayName> 
+             <Icon>Textures\Research.png</Icon> 
+             <HighlightIcon>Textures\ResearchSelected.png</HighlightIcon> 
+             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon> 
+         </Class> 
+         <Class> 
+             <Id> 
+                 <TypeId>BlueprintClassDefinition</TypeId> 
+                 <SubtypeId>ReverseEngineer</SubtypeId> 
+             </Id> 
+             <DisplayName>Reverse Engineer</DisplayName> 
+             <Icon>Textures\Recycle.png</Icon> 
+             <HighlightIcon>Textures\RecycleSelected.png</HighlightIcon> 
+             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon> 
+         </Class> 
+     </BlueprintClasses> 
+
+     <BlueprintClassEntries> 
+		 <Entry Class="Components" BlueprintSubtypeId="QuantumComputerChipResearch"/> 
+		 <Entry Class="Research" BlueprintSubtypeId="Tech2xComponentsResearch"/> 
+         <Entry Class="Research" BlueprintSubtypeId="Tech4xComponentsResearch"/> 
+         <Entry Class="Research" BlueprintSubtypeId="Tech8xComponentsResearch"/> 
+		 <Entry Class="ReverseEngineer" BlueprintSubtypeId="RE4x"/>
+		 <Entry Class="ReverseEngineer" BlueprintSubtypeId="RE8x"/> 
+     </BlueprintClassEntries> 
+</Definitions>

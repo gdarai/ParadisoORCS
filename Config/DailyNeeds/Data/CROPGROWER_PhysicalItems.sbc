@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+  
+<!-- Plants -->
+    
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Potatoes</SubtypeId>
+	</Id>
+	<DisplayName>Potatoes</DisplayName>
+	<Icon>Textures\GUI\Icons\potatoes_blueprint.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>1.5</Volume>
+	<Model>Models\potatoes.mwm</Model>
+
+
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Tomatoes</SubtypeId>
+	</Id>
+	<DisplayName>Tomatoes</DisplayName>
+	<Icon>Textures\GUI\Icons\tomatoes_blueprint.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>1.5</Volume>
+	<Model>Models\tomatoes.mwm</Model>
+
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Carrots</SubtypeId>
+	</Id>
+	<DisplayName>Carrots</DisplayName>
+	<Icon>Textures\GUI\Icons\carrots_blueprint.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>1.5</Volume>
+	<Model>Models\carrots.mwm</Model>
+
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Cucumbers</SubtypeId>
+	</Id>
+	<DisplayName>Cucumbers</DisplayName>
+	<Icon>Textures\GUI\Icons\cucumbers_blueprint.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>1.5</Volume>
+	<Model>Models\cucumbers.mwm</Model>
+
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+<!-- Seeds -->
+  
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>PotatoSeeds</SubtypeId>
+	</Id>
+	<DisplayName>Seed Potatoes</DisplayName>
+	<Icon>Textures\GUI\Icons\potatoes_icon.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.2</Mass>
+	<Volume>0.2</Volume>
+	<Model>Models\seeds.mwm</Model>
+
+            <MinimalPricePerUnit>150</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>TomatoSeeds</SubtypeId>
+	</Id>
+	<DisplayName>Tomato Seeds</DisplayName>
+	<Icon>Textures\GUI\Icons\tomatoes_icon.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.2</Mass>
+	<Volume>0.2</Volume>
+	<Model>Models\seeds.mwm</Model>
+
+            <MinimalPricePerUnit>150</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>CarrotSeeds</SubtypeId>
+	</Id>
+	<DisplayName>Carrot Seeds</DisplayName>
+	<Icon>Textures\GUI\Icons\carrots_icon.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.2</Mass>
+	<Volume>0.2</Volume>
+	<Model>Models\seeds.mwm</Model>
+
+            <MinimalPricePerUnit>150</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>CucumberSeeds</SubtypeId>
+	</Id>
+	<DisplayName>Cucumber Seeds</DisplayName>
+	<Icon>Textures\GUI\Icons\cucumbers_icon.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.2</Mass>
+	<Volume>0.2</Volume>
+	<Model>Models\seeds.mwm</Model>
+
+            <MinimalPricePerUnit>150</MinimalPricePerUnit>
+
+	</PhysicalItem>
+    
+<!-- Food -->
+
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>MartianSpecial</SubtypeId>
+	</Id>
+	<DisplayName>The Martian Special</DisplayName>
+	<Icon>Textures\GUI\Icons\martian_special.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>0.5</Volume>
+	<Model>Models\vegpack.mwm</Model>
+
+            <MinimalPricePerUnit>300</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+<!-- Other -->
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Fertilizer</SubtypeId>
+	</Id>
+	<DisplayName>Fertilizer</DisplayName>
+	<Icon>Textures\GUI\Icons\fertilizer_icon.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>5</Mass>
+	<Volume>5</Volume>
+	<Model>Models\fertilizer.mwm</Model>
+
+
+            <MinimalPricePerUnit>25</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Ketchup</SubtypeId>
+	</Id>
+	<DisplayName>Ketchup</DisplayName>
+	<Icon>Textures\GUI\Icons\ketchup_icon.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.01</Mass>
+	<Volume>0.01</Volume>
+	<Model>Models\ketchup.mwm</Model>
+
+            <MinimalPricePerUnit>25</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+<!-- Ores -->
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ore</TypeId>
+	<SubtypeId>Organic</SubtypeId>
+	</Id>
+	<DisplayName>DisplayName_Item_Organic</DisplayName>
+	<Icon>Textures\GUI\Icons\ore_biomass2.dds</Icon>
+	<Size>
+	<X>0.07</X>
+	<Y>0.07</Y>
+	<Z>0.07</Z>
+	</Size>
+	<Mass>1</Mass>
+	<Volume>0.25</Volume>
+	<Model>Models\Components\Sphere.mwm</Model>
+	<PhysicalMaterial>Stone</PhysicalMaterial>
+	<IconSymbol>IconSymbol_Organic</IconSymbol>
+
+
+            <MinimalPricePerUnit>50</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ore</TypeId>
+	<SubtypeId>Carbon</SubtypeId>
+	</Id>
+	<DisplayName>Carbon Ore</DisplayName>
+	<Icon>Textures\GUI\Icons\ore_C_carbon.dds</Icon>
+	<Size>
+	<X>0.07</X>
+	<Y>0.07</Y>
+	<Z>0.07</Z>
+	</Size>
+	<Mass>1</Mass>
+	<Volume>0.37</Volume>
+	<Model>Models\Components\Sphere.mwm</Model>
+	<PhysicalMaterial>Stone</PhysicalMaterial>
+	<IconSymbol>C</IconSymbol>
+
+
+            <MinimalPricePerUnit>50</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ore</TypeId>
+	<SubtypeId>Potassium</SubtypeId>
+	</Id>
+	<DisplayName>Potassium Ore</DisplayName>
+	<Icon>Textures\GUI\Icons\ore_K_potassium.dds</Icon>
+	<Size>
+	<X>0.07</X>
+	<Y>0.07</Y>
+	<Z>0.07</Z>
+	</Size>
+	<Mass>1</Mass>
+	<Volume>0.37</Volume>
+	<Model>Models\Components\Sphere.mwm</Model>
+	<PhysicalMaterial>Stone</PhysicalMaterial>
+	<IconSymbol>K</IconSymbol>
+
+
+            <MinimalPricePerUnit>50</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ore</TypeId>
+	<SubtypeId>Phosphorus</SubtypeId>
+	</Id>
+	<DisplayName>Phosphorus Ore</DisplayName>
+	<Icon>Textures\GUI\Icons\ore_P_phosphorus.dds</Icon>
+	<Size>
+	<X>0.07</X>
+	<Y>0.07</Y>
+	<Z>0.07</Z>
+	</Size>
+	<Mass>1</Mass>
+	<Volume>0.37</Volume>
+	<Model>Models\Components\Sphere.mwm</Model>
+	<PhysicalMaterial>Stone</PhysicalMaterial>
+	<IconSymbol>P</IconSymbol>
+
+
+            <MinimalPricePerUnit>50</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+<!-- Ingots -->
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Potassium</SubtypeId>
+	</Id>
+	<DisplayName>Potassium Ingot</DisplayName>
+	<Icon>Textures\GUI\Icons\ingot\potassium_ingot.dds</Icon>
+	<Size>
+	<X>0.083</X>
+	<Y>0.083</Y>
+	<Z>0.083</Z>
+	</Size>
+	<Mass>0.85</Mass>
+	<Volume>1</Volume>
+	<Model>Models\Ingots\potassium_ingot.mwm</Model>
+	<PhysicalMaterial>Metal</PhysicalMaterial>
+	<IconSymbol>K</IconSymbol>
+
+           <MinimalPricePerUnit>100</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Phosphorus</SubtypeId>
+	</Id>
+	<DisplayName>Phosphorus Ingot</DisplayName>
+	<Icon>Textures\GUI\Icons\ingot\phosphorus_ingot.dds</Icon>
+	<Size>
+	<X>0.07</X>
+	<Y>0.07</Y>
+	<Z>0.07</Z>
+	</Size>
+	<Mass>1.83</Mass>
+	<Volume>1</Volume>
+	<Model>Models\Ingots\generic_ingot.mwm</Model>
+	<PhysicalMaterial>Metal</PhysicalMaterial>
+	<IconSymbol>P</IconSymbol>
+
+           <MinimalPricePerUnit>100</MinimalPricePerUnit>
+
+	</PhysicalItem>
+	
+	<PhysicalItem>
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>Carbon</SubtypeId>
+	</Id>
+	<DisplayName>Carbon</DisplayName>
+	<Icon>Textures\GUI\Icons\ingot\carbon_ingot.dds</Icon>
+	<Size>
+	<X>0.072</X>
+	<Y>0.072</Y>
+	<Z>0.072</Z>
+	</Size>
+	<Mass>10.65</Mass>
+	<Volume>1</Volume>
+	<Model>Models\Ingots\stone_ingot.mwm</Model>
+	<PhysicalMaterial>Stone</PhysicalMaterial>
+	<IconSymbol>C</IconSymbol>
+
+           <MinimalPricePerUnit>100</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>

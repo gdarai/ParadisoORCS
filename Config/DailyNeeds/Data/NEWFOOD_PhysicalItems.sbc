@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <PhysicalItems>
+
+
+	
+<PhysicalItem>
+
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>NotBeefBurger</SubtypeId>
+	</Id>
+	<DisplayName>Not so Beef Burger n Fries</DisplayName>
+	<Icon>Textures/GUI/Icons/NotBeefBurger.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>1.0</Volume>
+	<Model>Models\fullpack.mwm</Model>
+
+            <MinimalPricePerUnit>550</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+	
+<PhysicalItem>
+
+	<Id>
+	<TypeId>Ingot</TypeId>
+	<SubtypeId>ToFurkey</SubtypeId>
+	</Id>
+	<DisplayName>To Furkey Dinner</DisplayName>
+	<Icon>Textures/GUI/Icons/ToFurkeyDinner.dds</Icon>
+	<Size>
+	<X>0.048</X>
+	<Y>0.048</Y>
+	<Z>0.1</Z>
+	</Size>
+	<Mass>0.5</Mass>
+	<Volume>1.0</Volume>
+	<Model>Models\fullpack.mwm</Model>
+
+
+            <MinimalPricePerUnit>750</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+   <PhysicalItem>
+
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>HotChocolate</SubtypeId>
+      </Id>
+
+      <DisplayName>Toffee Hot Chocolate</DisplayName>
+       <Icon>Textures/GUI/Icons/hotchocolate.dds</Icon>
+
+      <Size>
+        <X>0.048</X>
+        <Y>0.048</Y>
+        <Z>0.1</Z>
+
+      </Size>
+
+
+      <Mass>0.25</Mass>
+
+      <Volume>0.4</Volume>
+
+      <Model>Models\coffeepack.mwm</Model>
+
+
+            <MinimalPricePerUnit>250</MinimalPricePerUnit>
+
+    </PhysicalItem>
+
+	
+<PhysicalItem>
+
+	<Id>
+
+	<TypeId>Ingot</TypeId>
+
+	<SubtypeId>SpaceMealBar</SubtypeId>
+
+	</Id>
+
+	<DisplayName>Space Meal Bar</DisplayName>
+
+	<Icon>Textures/GUI/Icons/SpaceMealBar.dds</Icon>
+
+	<Size>
+
+	<X>0.048</X>
+
+	<Y>0.048</Y>
+
+	<Z>0.1</Z>
+
+	</Size>
+
+	<Mass>0.1</Mass>
+
+	<Volume>0.1</Volume>
+
+	<Model>Models\fullpack.mwm</Model>
+
+            <MinimalPricePerUnit>250</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+
+   <PhysicalItem>
+
+
+      <Id>
+
+        <TypeId>Ingot</TypeId>
+
+        <SubtypeId>ProteinShake</SubtypeId>
+
+      </Id>
+
+
+      <DisplayName>Protein Shake</DisplayName>
+
+       <Icon>Textures/GUI/Icons/ProteinShake.dds</Icon>
+
+
+      <Size>
+
+        <X>0.048</X>
+
+        <Y>0.048</Y>
+
+        <Z>0.1</Z>
+
+      </Size>
+
+
+      <Mass>1</Mass>
+
+      <Volume>0.5</Volume>
+
+      <Model>Models\coffeepack.mwm</Model>
+
+            <MinimalPricePerUnit>225</MinimalPricePerUnit>
+
+    </PhysicalItem>
+
+
+	
+<PhysicalItem>
+
+	<Id>
+
+	<TypeId>Ingot</TypeId>
+
+	<SubtypeId>SpacersBreakfast</SubtypeId>
+
+	</Id>
+
+	<DisplayName>Not-So-Bacon n Scrambled Eggs</DisplayName>
+
+	<Icon>Textures/GUI/Icons/ScrambledEggsMeal.dds</Icon>
+
+	<Size>
+
+	<X>0.048</X>
+
+	<Y>0.048</Y>
+
+	<Z>0.1</Z>
+
+	</Size>
+
+	<Mass>0.5</Mass>
+
+	<Volume>0.5</Volume>
+
+	<Model>Models\fullpack.mwm</Model>
+
+
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+
+	</PhysicalItem>
+
+
+
+
+
+  </PhysicalItems>
+
+</Definitions>

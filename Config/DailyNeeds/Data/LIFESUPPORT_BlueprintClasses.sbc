@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<BlueprintClasses>
+  <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Liquids</SubtypeId>
+      </Id>
+      <DisplayName>Liquids</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Food</SubtypeId>
+      </Id>
+      <DisplayName>Food and Liquids</DisplayName>
+      <Icon>Textures\not\GUI\food.dds</Icon>
+      <HighlightIcon>Textures\not\GUI\food_highlight.dds</HighlightIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>WaterRecycle</SubtypeId>
+      </Id>
+      <DisplayName>Water</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\not\GUI\filter_canister.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\not\GUI\filter_canister.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BioreactorNutrient</SubtypeId>
+      </Id>
+      <DisplayName>Organic Material</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>HydroponicsPlant</SubtypeId>
+      </Id>
+      <DisplayName>Water and Basic Substances (Gravel)</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\not\GUI\filter_basic.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\not\GUI\filter_plant.dds</OutputConstraintIcon>
+    </Class>
+
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>EmergencyRations</SubtypeId>
+      </Id>
+      <DisplayName>Emergency Rations</DisplayName>
+      <Icon>Textures\not\GUI\food.dds</Icon>
+      <HighlightIcon>Textures\not\GUI\food_highlight.dds</HighlightIcon>
+    </Class>
+
+
+
+
+
+
+</BlueprintClasses>
+
+<BlueprintClassEntries>
+    <Entry Class="Food" BlueprintSubtypeId="CoffeeFood" />
+    <Entry Class="Food" BlueprintSubtypeId="VeganFood" />
+    <Entry Class="Food" BlueprintSubtypeId="WolfSteak" />
+    <Entry Class="Food" BlueprintSubtypeId="SabiroidOmelette" />
+    <Entry Class="Food" BlueprintSubtypeId="SabiroidSteak" />
+    <Entry Class="Food" BlueprintSubtypeId="SabiroidBouillon" />
+    <Entry Class="Food" BlueprintSubtypeId="WolfBouillon" />
+    <Entry Class="Food" BlueprintSubtypeId="WaterFood" />
+    <Entry Class="Food" BlueprintSubtypeId="LuxuryMeal" />
+    <Entry Class="Food" BlueprintSubtypeId="ArtificialFood" />
+    <Entry Class="Food" BlueprintSubtypeId="OrganicToNutrients" />
+    <Entry Class="Food" BlueprintSubtypeId="Organic" />
+
+ClonedSabiroidMeat
+
+    <Entry Class="Food" BlueprintSubtypeId="ClonedAnimalMeat" />
+
+    <Entry Class="Food" BlueprintSubtypeId="ClonedSabiroidMeat" />
+
+
+	
+    <Entry Class="EmergencyRations" BlueprintSubtypeId="EmergencyFood" />
+    <Entry Class="EmergencyRations" BlueprintSubtypeId="EmergencyWater" />
+	
+    <Entry Class="HydroponicsPlant" BlueprintSubtypeId="BasicToPlant1" />
+    <Entry Class="HydroponicsPlant" BlueprintSubtypeId="BasicToPlant2" />
+    <Entry Class="HydroponicsPlant" BlueprintSubtypeId="SeedsToPlant1" />
+    <Entry Class="HydroponicsPlant" BlueprintSubtypeId="SeedsToPlant2" />
+
+	<Entry Class="WaterRecycle" BlueprintSubtypeId="IceOreToWater" />
+    <Entry Class="WaterRecycle" BlueprintSubtypeId="GreyToCleanWater" />
+    <Entry Class="WaterRecycle" BlueprintSubtypeId="CleanToCleanWater" />
+    
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/Kitchen" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Hydroponics" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/WRS" />
+
+  </BlueprintClassEntries>
+</Definitions>

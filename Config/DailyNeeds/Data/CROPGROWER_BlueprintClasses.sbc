@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<BlueprintClasses>
+
+	<Class>
+	<Id>                   
+	<TypeId>BlueprintClassDefinition</TypeId>
+	<SubtypeId>Plants</SubtypeId>
+	</Id>
+	<DisplayName>Plants and Vegetables</DisplayName>
+	<Icon>Textures\GUI\food.dds</Icon>
+	<HighlightIcon>Textures\GUI\food_highlight.dds</HighlightIcon>
+	</Class>
+ 
+</BlueprintClasses>
+<BlueprintClassEntries>
+<Entry Class="Plants" BlueprintSubtypeId="Potatoes" />
+<Entry Class="Plants" BlueprintSubtypeId="Tomatoes" />
+<Entry Class="Plants" BlueprintSubtypeId="Carrots" />
+<Entry Class="Plants" BlueprintSubtypeId="Cucumbers" />
+<Entry Class="Food" BlueprintSubtypeId="Ketchup" />
+<Entry Class="Plants" BlueprintSubtypeId="PotatoSeeds" />
+<Entry Class="Plants" BlueprintSubtypeId="TomatoSeeds" />
+<Entry Class="Plants" BlueprintSubtypeId="CarrotSeeds" />
+<Entry Class="Plants" BlueprintSubtypeId="CucumberSeeds" />
+<Entry Class="Food" BlueprintSubtypeId="MartianSpecial" />
+<Entry Class="Plants" BlueprintSubtypeId="OrganicToFertilizer" />
+<Entry Class="Plants" BlueprintSubtypeId="IngotsToFertilizer" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/CropGrower" />
+<Entry Class="Ingots" BlueprintSubtypeId="CarbonOreToIngot" />
+<Entry Class="Ingots" BlueprintSubtypeId="PotassiumOreToIngot" />
+<Entry Class="Ingots" BlueprintSubtypeId="PhosphorusOreToIngot" />
+</BlueprintClassEntries>
+</Definitions>

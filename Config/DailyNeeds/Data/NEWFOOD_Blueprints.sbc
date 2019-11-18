@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+<Blueprints>
+
+
+
+
+
+	<Blueprint>
+
+		<Id>
+
+			<TypeId>BlueprintDefinition</TypeId>
+
+			<SubtypeId>NotBeefBurger</SubtypeId>
+
+		</Id>
+
+
+		<DisplayName>Not So Beef Burger n Fries</DisplayName>
+
+		<Icon>Textures/GUI/Icons/NotBeefBurger.dds</Icon>
+
+
+		<Prerequisites>
+
+
+			<Item Amount="0.75" TypeId="Ore" SubtypeId="Organic" />
+
+			<Item Amount="1.5" TypeId="Ingot" SubtypeId="SubFresh" />
+
+			<Item Amount="6" TypeId="Ingot" SubtypeId="VeganFood" />
+			<Item Amount="0.75" TypeId="Ingot" SubtypeId="WaterFood" />
+
+
+		</Prerequisites>
+
+
+		<Result Amount="1" TypeId="Ingot" SubtypeId="NotBeefBurger" />
+
+
+		<BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+
+
+	</Blueprint>
+
+
+
+
+
+	<Blueprint>
+
+		<Id>
+
+			<TypeId>BlueprintDefinition</TypeId>
+
+			<SubtypeId>ToFurkey</SubtypeId>
+
+		</Id>
+
+
+		<DisplayName>To Furkey Dinner</DisplayName>
+
+		<Icon>Textures/GUI/Icons/ToFurkeyDinner.dds</Icon>
+
+
+
+		<Prerequisites>
+
+
+			<Item Amount="0.75" TypeId="Ore" SubtypeId="Organic" />
+
+			<Item Amount="1.5" TypeId="Ingot" SubtypeId="SubFresh" />
+
+			<Item Amount="6.5" TypeId="Ingot" SubtypeId="VeganFood" />
+			<Item Amount=".75" TypeId="Ingot" SubtypeId="WaterFood" />
+
+
+		</Prerequisites>
+
+		
+<Result Amount="1" TypeId="Ingot" SubtypeId="ToFurkey" />
+
+
+		<BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+
+
+	</Blueprint>
+
+
+
+
+
+
+
+	<Blueprint>
+
+		<Id>
+
+			<TypeId>BlueprintDefinition</TypeId>
+
+			<SubtypeId>SpaceMealBar</SubtypeId>
+
+		</Id>
+
+
+		<DisplayName>Space Meal Bar</DisplayName>
+
+		<Icon>Textures/GUI/Icons/SpaceMealBar.dds</Icon>
+
+
+
+		<Prerequisites>
+
+
+			<Item Amount="2.25" TypeId="Ore" SubtypeId="Organic" />
+
+			<Item Amount="3" TypeId="Ingot" SubtypeId="SubFresh" />
+
+			<Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+			<Item Amount="1.5" TypeId="Ingot" SubtypeId="WaterFood" />
+
+
+		</Prerequisites>
+
+		
+<Result Amount="2" TypeId="Ingot" SubtypeId="SpaceMealBar" />
+
+
+		<BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+
+
+	</Blueprint>
+
+
+
+
+
+
+ <Blueprint>
+
+
+
+      <Id>
+
+        <TypeId>BlueprintDefinition</TypeId>
+
+        <SubtypeId>HotChocolate</SubtypeId>
+
+      </Id>
+
+      <DisplayName>Toffee Hot Chocolate</DisplayName>
+
+
+      <Icon>Textures/GUI/Icons/hotchocolate.dds</Icon>
+
+
+
+      <Prerequisites>
+
+
+        <Item Amount="1" TypeId="Ingot" SubtypeId="SubFresh" />
+
+        <Item Amount="1" TypeId="Ingot" SubtypeId="WaterFood" />
+
+
+      </Prerequisites>
+
+
+
+      <Result Amount="1" TypeId="Ingot" SubtypeId="HotChocolate" />
+
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+
+
+
+</Blueprint>
+
+
+
+
+
+
+	<Blueprint>
+
+		<Id>
+
+			<TypeId>BlueprintDefinition</TypeId>
+
+			<SubtypeId>SpacersBreakfast</SubtypeId>
+
+		</Id>
+
+
+		<DisplayName>Not-So-Bacon n Scrambled Eggs</DisplayName>
+
+		<Icon>Textures/GUI/Icons/ScrambledEggsMeal.dds</Icon>
+
+
+		<Prerequisites>
+
+
+			<Item Amount="0.75" TypeId="Ore" SubtypeId="Organic" />
+
+			<Item Amount="1.5" TypeId="Ingot" SubtypeId="SubFresh" />
+
+			<Item Amount="5" TypeId="Ingot" SubtypeId="VeganFood" />
+			<Item Amount="1.5" TypeId="Ingot" SubtypeId="WaterFood" />
+
+
+		</Prerequisites>
+
+
+		<Result Amount="1" TypeId="Ingot" SubtypeId="SpacersBreakfast" />
+
+
+		<BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+
+
+	</Blueprint>
+
+
+
+<Blueprint>
+
+
+
+      <Id>
+
+        <TypeId>BlueprintDefinition</TypeId>
+
+        <SubtypeId>ProteinShake</SubtypeId>
+
+      </Id>
+
+      <DisplayName>Protein Shake</DisplayName>
+
+
+      <Icon>Textures/GUI/Icons/ProteinShake.dds</Icon>
+
+
+
+      <Prerequisites>
+
+
+        <Item Amount="1" TypeId="Ingot" SubtypeId="SubFresh" />
+
+        <Item Amount="1" TypeId="Ingot" SubtypeId="WaterFood" />
+
+	<Item Amount="3" TypeId="Ingot" SubtypeId="VeganFood" />
+
+      </Prerequisites>
+
+
+
+      <Result Amount="1" TypeId="Ingot" SubtypeId="ProteinShake" />
+
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+
+
+
+</Blueprint>
+
+
+
+</Blueprints>
+
+
+
+</Definitions>
