@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SpawnGroups>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)FORGE_OF_CORRUPTION_EC_INTRO</SubtypeId>
+	</Id>
+	<Description>
+	  
+	  [Modular Encounters SpawnGroup]
+	  [SpawnGroupEnabled:false]
+	  [AtmosphericCargoShip:true]
+	  [FactionOwner:CORRUPT]
+	  [AdminSpawnOnly:true]
+	  [DisableDampeners:false]
+	  [RequireAllMods:484504816,970804258,1400364273,914369510]
+	  
+	  </Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>10.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Forge Of Corruption">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+</SpawnGroups>
+</Definitions>
+

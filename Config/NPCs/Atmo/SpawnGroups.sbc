@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SpawnGroups>
+
+<!--=========== CARGO SHIP GROUPS ==============-->
+
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) AS-1 Stormfire</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) AS-1 Stormfire">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>AS-1 Stormfire</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Instinct - Atmospheric Frigate</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+	[ShiftBlockColorsHue:true]
+	[ShiftBlockColorAmount:200]
+	[ReduceBlockBuildStates:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Instinct - Atmospheric Frigate">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Instinct - Atmospheric Frigate</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) INTRUDER III Escort Carrier</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+	[ShiftBlockColorsHue:true]
+	[RandomHueShift:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) INTRUDER III Escort Carrier">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>INTRUDER III Escort Carrier</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Mobile Drilling Platform</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+	[ShiftBlockColorsHue:true]
+	[ShiftBlockColorAmount:200]
+	[ReduceBlockBuildStates:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Mobile Drilling Platform">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Mobile Drilling Platform</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Oban Tide</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[PlanetRequiresAtmo:false]
+
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Oban Tide">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Oban Tide</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Sky Factory</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+	[ShiftBlockColorsHue:true]
+	[ShiftBlockColorAmount:200]
+	[ReduceBlockBuildStates:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Sky Factory">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sky Factory</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Spirit of Lomond</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Spirit of Lomond">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Spirit of Lomond</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) SS-1 Serenity MK.2</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) SS-1 Serenity MK.2">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SS-1 Serenity MK.2</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) SS-11 Harpy</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) SS-11 Harpy">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SS-11 Harpy</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) SS-19 Serenity-X</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) SS-19 Serenity-X">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SS-19 Serenity-X</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Super Gremlin</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[PlanetRequiresAtmo:false]
+
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Super Gremlin">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Super Gremlin</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Supply Transport</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+	[ShiftBlockColorsHue:true]
+	[ShiftBlockColorAmount:200]
+	[ReduceBlockBuildStates:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>4.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Supply Transport">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Supply Transport</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) The Scutler Mk 7</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) The Scutler Mk 7">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>The Scutler Mk 7</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) Transport Courier</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+	[FactionOwner:SPRT]
+	[ReplenishSystems:true]
+	[ShiftBlockColorsHue:true]
+	[ShiftBlockColorAmount:200]
+	[ReduceBlockBuildStates:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>5.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) Transport Courier">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Transport Courier</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(NPC-ATM) WMI Hunchback Dropship</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[AtmosphericCargoShip:true]
+	[DisableDampeners:false]
+
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-ATM) WMI Hunchback Dropship">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>WMI Hunchback Dropship</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+</SpawnGroups>
+</Definitions>
+

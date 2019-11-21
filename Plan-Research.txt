@@ -9,18 +9,40 @@ Directed Energy Weapons
     - AF T1 Dmgx3 (OK)
     - PD T1 Dmgx3 (OK)
     - Fixed T3 
-!!!MISSING Small
 
-Advanced Energy Cannons +CAT
+Advanced Energy Cannons +CAT (OK)
     - Fixed (Util) T2 LaserDmgx2, Rng to 1200(OK)
-MWI +CAT
+MWI +CAT (OK)
     - Fixed T2 (OK)
     - Small Turrets T2 (OK)
     - Large Turrets T2 (OK)
     - PD T2 Dmgx3 Speed/2 (OK)
 
-
+Power ballance:
+    Small   Light   Heavy
+T0  0.2     0.5     1
+T1  0.5     1       1.5
+T2  1       2       3
+T3  5       10      15
 
 Research will be Tier Tech Driven.
 All blocks will be +- Available, but to get the required tier upgrades will be harder.
 Resources... All everywhere. Uran not much. Platin, Gold, Silver, Little.
+
+
+Power na Upg Thrusters
+I * Power = 1   1   2   4   8
+I * Speed = 1   2   4   8   16
+
+Tier U:
+Shields
+Small Ship Prod
+Tractor Beam
+Tier Research
+Upgradable Thrusters
+Recepty na Tech
+Recept na Tier Research
+
+Co chybi:
+Recept na Faction Cards
+Nastavit Weapon Limitations pro NPC

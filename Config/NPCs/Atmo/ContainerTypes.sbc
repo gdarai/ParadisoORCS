@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ContainerTypes>
+
+	<!--LargeGrid/SmallContainers-->
+	<ContainerType CountMin="1" CountMax="4">
+	
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-BasicComponents-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SteelPlate</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Construction</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="750">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Motor</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>InteriorPlate</SubtypeId>
+			</Id>
+			</Item>  
+
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="5">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-BasicComponents-2</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="100">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>LargeTube</SubtypeId>
+			</Id>
+			</Item>  
+
+			<Item AmountMin="1" AmountMax="750">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SmallTube</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="450">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>MetalGrid</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="350">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>BulletproofGlass</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="300">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Girder</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="4">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-BasicComponents-3</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="400">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Computer</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="100">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Display</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="240">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>PowerCell</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="40">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>RadioCommunication</SubtypeId>
+			</Id>
+			</Item>  
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="4">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-AdvancedComponents-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="200">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Detector</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="30">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Medical</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Reactor</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="240">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SolarCell</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="3">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-RareComponents-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="30">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GravityGenerator</SubtypeId>
+			</Id>
+			</Item>
+			
+			<Item AmountMin="1" AmountMax="800">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Superconductor</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="300">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Thrust</SubtypeId>
+			</Id>
+			</Item>  
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="5">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-BasicTools-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>HandDrill2Item</SubtypeId>
+			</Id>
+			</Item>
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>Welder2Item</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>AngleGrinder2Item</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>GasContainerObject</TypeId>
+			<SubtypeId>HydrogenBottle</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>OxygenContainerObject</TypeId>
+			<SubtypeId>OxygenBottle</SubtypeId>
+			</Id>
+			</Item>   
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="5">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-AdvancedTools-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>HandDrill3Item</SubtypeId>
+			</Id>
+			</Item>
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>Welder3Item</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>AngleGrinder3Item</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>PreciseAutomaticRifleItem</SubtypeId>
+			</Id>
+			</Item>   
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="4">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-RareTools-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>HandDrill4Item</SubtypeId>
+			</Id>
+			</Item>
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>Welder4Item</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>AngleGrinder4Item</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="2">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+			</Id>
+			</Item>    
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="2">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-BasicAmmo-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>NATO_5p56x45mm</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="250">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>NATO_25x184mm</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="3">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-RareAmmo-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="250">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>NATO_25x184mm</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="100">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>Missile200mm</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="250">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Explosives</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="4">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-BasicIngots-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="20000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Cobalt</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="20000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Iron</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="20000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Nickel</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="20000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Silicon</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="3">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-UncommonIngots-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Gold</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Magnesium</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="5000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Silver</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="3">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGSC-RareIngots-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="5" AmountMax="25">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Platinum</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="200">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ingot</TypeId>
+			<SubtypeId>Uranium</SubtypeId>
+			</Id>
+			</Item> 
+
+		</Items>
+	</ContainerType>
+
+	<!--LargeGrid/LargeContainers-->
+	
+	<ContainerType CountMin="7" CountMax="13">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGLC-BasicComponents-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>BulletproofGlass</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Computer</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="5000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Construction</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="250">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Display</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Girder</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>InteriorPlate</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>LargeTube</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>MetalGrid</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="5000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Motor</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>PowerCell</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>RadioCommunication</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="5000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SmallTube</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="5000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SteelPlate</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="6" CountMax="11">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGLC-RareComponents-1</SubtypeId>
+		</Id>
+		<Items>
+			
+			<Item AmountMin="1" AmountMax="250">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>Missile200mm</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="250">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>NATO_25x184mm</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>NATO_5p56x45mm</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Detector</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Explosives</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GravityGenerator</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="150">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Medical</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="2000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Reactor</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="1500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SolarCell</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="1000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Superconductor</SubtypeId>
+			</Id>
+			</Item>  
+			
+			<Item AmountMin="1" AmountMax="1500">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Thrust</SubtypeId>
+			</Id>
+			</Item>  
+			
+		</Items>
+	</ContainerType>
+	
+	<ContainerType CountMin="1" CountMax="4">
+		<Id>
+		<TypeId>ContainerTypeDefinition</TypeId>
+		<SubtypeId>(NPC-ATM)Loot-LGLC-CommonOre-1</SubtypeId>
+		</Id>
+		<Items>
+
+			<Item AmountMin="1" AmountMax="50000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Cobalt</SubtypeId>
+			</Id>
+			</Item>   
+			
+			<Item AmountMin="1" AmountMax="50000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Iron</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="50000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Nickel</SubtypeId>
+			</Id>
+			</Item> 
+			
+			<Item AmountMin="1" AmountMax="50000">
+			<Frequency>1.0</Frequency>
+			<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Silicon</SubtypeId>
+			</Id>
+			</Item> 
+			
+		</Items>
+	</ContainerType>
+	
+	<!--SmallGrid/SmallContainers-->
+	
+	<!--SmallGrid/MediumContainers-->
+	
+	<!--SmallGrid/LargeContainers-->
+	
+</ContainerTypes>
+</Definitions>

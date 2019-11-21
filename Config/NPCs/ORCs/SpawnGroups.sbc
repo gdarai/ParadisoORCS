@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		
+		<!-- Space Cargo Ships -->
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Deff Ship (Space)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[SpaceCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1100]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>20.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Deff Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShip</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Shootaboat (Space)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[SpaceCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1000]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>20.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Shootaboat">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShip</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Ravager Attack Ship (Space)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[SpaceCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1300]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>10.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Ravager Attack Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShip</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Lite Krooza (Space)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[SpaceCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1400]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>10.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Lite Krooza">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShip</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Savage Gunship (Space)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[SpaceCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1200]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>20.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Savage Gunship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShip</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!-- Atmo Cargo Ships -->
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Deff Ship (Planet)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[AtmosphericCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1100]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>20.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Deff Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShipNoStaticGuns</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Shootaboat (Planet)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[AtmosphericCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1000]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>40.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Shootaboat">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShipNoStaticGuns</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Ravager Attack Ship (Planet)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[AtmosphericCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1300]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>20.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Ravager Attack Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShipNoStaticGuns</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Lite Krooza (Planet)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[AtmosphericCargoShip:true]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1400]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>10.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Lite Krooza">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShipNoStaticGuns</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-ORK) Ork Killa KrooZa</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+			[RandomizeWeapons:true]
+			[BossEncounterSpace:true]
+			[BossCustomAnnounceEnable:true]
+			[BossCustomAnnounceAuthor:Da Best Warboss]
+			[BossCustomAnnounceMessage:Puny 'umiez fink dey kan smash me? Kome an try it!!]
+			[BossCustomGPSLabel:WAAAAAAAAAGGHHH!]
+			[FactionOwner:ORKS]
+			[ReplenishSystems:true]
+			[UseThreatLevelCheck:true]
+			[ThreatLevelCheckRange:15000]
+			[ThreatScoreMinimum:1500]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>10.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Killa KrooZa">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25.0</Speed>
+					<Behaviour>MES-CapitalShip</Behaviour>
+					<BehaviourActivationDistance>20000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+	</SpawnGroups>
+</Definitions>
