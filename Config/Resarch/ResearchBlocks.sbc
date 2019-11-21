@@ -20,7 +20,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundSlope" />      
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundSlope" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -298,13 +298,13 @@
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_GravityGenerator" Subtype="" />
       <UnlockedByGroups>
-        <GroupSubtype>4</GroupSubtype>        
+        <GroupSubtype>4</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
       <UnlockedByGroups>
-        <GroupSubtype>4</GroupSubtype>        
+        <GroupSubtype>4</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">
@@ -1371,7 +1371,7 @@
         <GroupSubtype>7</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-	
+
 	<ResearchBlock xsi:type="ResearchBlock">
       <Id Type="SmallMissileLauncher" Subtype="SmallGridExplosiveLaser" />
       <UnlockedByGroups>
@@ -1384,7 +1384,7 @@
         <GroupSubtype>7</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-	
+
 	<ResearchBlock xsi:type="ResearchBlock">
       <Id Type="ShipWelder" Subtype="SELtdSmallNanobotBuildAndRepairSystem" />
       <UnlockedByGroups>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+    <ResearchBlock>
+      <Id Subtype="ControlPanel" Type="MyObjectBuilder_TerminalBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>1000</GroupSubtype>
+        <GroupSubtype>1001</GroupSubtype>
+        <GroupSubtype>1003</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+  </ResearchBlocks>
+</Definitions>

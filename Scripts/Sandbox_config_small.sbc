@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_WorldConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Mods>
+    <ModItem FriendlyName="InFlightButtons - Klime">
+      <Name>1874524300.sbm</Name>
+      <PublishedFileId>1874524300</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Bike Wheels">
+      <Name>1897042591.sbm</Name>
+      <PublishedFileId>1897042591</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>BeamTurretsTweaks</Name>
+    </ModItem>
+    <ModItem>
+      <Name>BeamTurretsTweaks_Wrong</Name>
+    </ModItem>
+  </Mods>
+</MyObjectBuilder_WorldConfiguration>

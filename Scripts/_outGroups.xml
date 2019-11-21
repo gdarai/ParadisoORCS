@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Subtype="1000" Type="MyObjectBuilder_ResearchGroupDefinition" />
+      <Members>
+        <BlockId Subtype="Monolith" Type="MyObjectBuilder_CubeBlock" />
+        <BlockId Subtype="Stereolith" Type="MyObjectBuilder_CubeBlock" />
+        <BlockId Subtype="DeadAstronaut" Type="MyObjectBuilder_CubeBlock" />
+        <BlockId Subtype="LargeDeadAstronaut" Type="MyObjectBuilder_CubeBlock" />
+        <BlockId Subtype="LargeBlockBatteryBlock" Type="MyObjectBuilder_BatteryBlock" />
+        <BlockId Subtype="SmallBlockBatteryBlock" Type="MyObjectBuilder_BatteryBlock" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Subtype="1001" Type="MyObjectBuilder_ResearchGroupDefinition" />
+      <Members>
+        <BlockId Subtype="WRS" Type="MyObjectBuilder_Refinery" />
+        <BlockId Subtype="Hydroponics" Type="MyObjectBuilder_Refinery" />
+        <BlockId Subtype="Hydroponics2" Type="MyObjectBuilder_Refinery" />
+        <BlockId Subtype="Kitchen" Type="MyObjectBuilder_Assembler" />
+        <BlockId Subtype="CropGrower" Type="MyObjectBuilder_Assembler" />
+        <BlockId Subtype="DailyNeeds_BlankLCD" Type="MyObjectBuilder_TextPanel" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Subtype="1003" Type="MyObjectBuilder_ResearchGroupDefinition" />
+      <Members>
+        <BlockId Subtype="ReasearchComputer" Type="MyObjectBuilder_Assembler" />
+      </Members>
+    </ResearchGroup>
+  </ResearchGroups>
+</Definitions>
